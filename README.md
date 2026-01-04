@@ -9,6 +9,6 @@ PCB Log Periodic Antenna (0.8-6 GHz)
 <table style="width: 100%; border: none;" cellspacing="0" cellpadding="0" border="0">
   <tr>
     <td><img src="README_MD_IMG/BYTECHLAB_LOGO.png" alt="Logo" height="60"></td>
-    <td>https://bytechlab.com/2026/01/pcb-log-periodic-antenna-0-8-6-ghz/↗</td>
+    <td>https://bytechlab.com/2026/01/pcb-log-periodic-antenna-0-8-6-ghz/</td>
   </tr>
 </table>
