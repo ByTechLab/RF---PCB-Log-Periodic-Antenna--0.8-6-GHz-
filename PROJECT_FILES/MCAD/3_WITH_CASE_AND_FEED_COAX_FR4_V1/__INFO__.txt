@@ -1,0 +1,56 @@
+--> Parts files naming standard:
+
+1) Commercial Of The Shelf parts (COTS):
+
+COTS_[Manufacturer name]_[Manufacturer part name]_[Part name]
+
+EXAMPLE:
+COTS_ABB_1YZA54GHI_Heating_Module
+
+2) COTS Generic parts:
+
+COTS_GENERIC_[Part name]
+
+EXAMPLE:
+COTS_GENERIC_Zip_Tie
+
+
+3) Custom Parts:
+
+[Method of manufacturing]_[Material]_[Sheet thickness]_[Other parameters]_[Part name]_[Revision]
+[ASSEMBLY/3DP/PC/WC/LC/LCBN/CNCM/CNCT/CUT/...]_[PCB/STEEL/ALU/PLEXI/ABS/PLA/TPU/...]_[3mm/5mm/...]_[Painted/40%_infill/...]_[Bolt_Holder/...]_[REV1/REV2/REVA/...]
+
+EXAMPLE:
+3DP_ABS_Connector_Mount
+LCBN_ALU_3mm_Front_Panel
+ASSEMBLY_Fridge_V3
+ASSEMBLY_PCB_Controller
+
+Add revision at the end only if this is the second copy or nth copy of the file.
+EXAMPLE:
+
+First revision:
+3DP_ABS_Connector_Mount
+
+Second revision:
+3DP_ABS_Connector_Mount_REV2
+
+Revision B:
+3DP_ABS_Connector_Mount_REVB
+
+4) Drawings:
+
+[Part name]_Drawing
+
+EXAMPLE:
+FRIDGE_Drawing
+
+5) Exploded View
+
+EXPVIEW_[Assembly Name]
+
+EXAMPLE:
+
+EXPVIEW_Fridge
+
+
